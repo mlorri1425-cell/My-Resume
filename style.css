@@ -182,7 +182,28 @@ a {text-decoration: none !important;}
     border-radius: 8px 8px 0 0;
 }
 
+@media (max-width: 576px) {
+    .greeting {
+        font-size: 1.6rem;
+    }
+
+    .major {
+        font-size: 1.2rem;
+    }
+
+    .objective {
+        font-size: 0.95rem;
+    }
+
+    .tech-gif {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+
 @media (max-width: 768px) {
+
     .floating-logo {
         position: relative;
         display: block;
@@ -190,12 +211,43 @@ a {text-decoration: none !important;}
         top: 0;
         right: 0;
     }
+
+    .highlight {
+        font-size: 2.5rem;
+    }
+
+    .background-shape-large {
+        width: 300px;
+        height: 300px;
+    }
+
+    .tech-gif {
+        width: 280px;
+        height: 280px;
+    }
+
+    .objective {
+        max-width: 100%;
+    }
 }
 
+@media (max-width: 992px) {
 
-@media (max-width: 768px) {
-    .highlight{ font-size: 2.5rem;}
-    .background-shape-large { width: 300px; height: 300px;}
-    .tech-gif { width: 280px; height: 280px;}
-    .objective { max-width: 100%;}
+    .custom-navbar {
+        padding: 10px 20px;
+    }
+
+    .greeting {
+        font-size: 2.2rem;
+    }
+
+    .major {
+        font-size: 1.6rem;
+    }
+
+    .tech-gif {
+        width: 300px;
+        height: 300px;
+    }
+
 }
